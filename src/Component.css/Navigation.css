@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+h1{
+    font-family: 'DM Sans', sans-serif;
+}
+h2{
+    font-family: 'DM Sans', sans-serif;
+}
+h3{
+    font-family: 'DM Sans', sans-serif;
+}
+h4{
+    font-family: 'DM Sans', sans-serif;
+}
+h5{
+    font-family: 'DM Sans', sans-serif;
+}
+h6{
+    font-family: 'DM Sans', sans-serif;
+}
+Link{
+    font-family: 'DM Sans', sans-serif;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+}
+Button{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.titleNavbar{
+    font-family: 'DM Sans', sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+.titleNavbar1{
+    font-family: 'DM Sans', sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 12px;
+}
+.titleNavbar:hover{
+    color: rgb(242, 156, 81);
+}
+
+.fnaviimg{
+    height: 50px ;
+     width: 200px ;
+}
+
+.btnav{
+    height:0;
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.navibt{
+background-color: #81b441;
+height: 40px;
+width: 120px;
+border: none;
+
+}
+@media screen and (max-width: 480px) {
+    .fnaviimg{
+        height: 20% ;
+         width: 60% ;
+    }
+  }

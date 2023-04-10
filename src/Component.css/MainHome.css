@@ -1,0 +1,100 @@
+.bgMain{
+    animation-name: infiniteupdown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .5s;
+
+}
+@keyframes infiniteupdown {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+.imgmain{
+    height: 600px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.bgmain2{
+    height: 250px;
+    width: 250px;
+    margin-top: 300px;
+    margin-left: 400px;
+    border-radius: 50%;
+    border: 2px solid red;
+    animation-name: infiniteup;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .5s;
+}
+@keyframes infiniteup {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.imgmain2{
+    height: 300px;
+    width: 250px;
+    margin-top: 90px;
+    border-top-right-radius: 30px;  
+}
+.imgmain33{
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 80px;
+}
+@media screen and (max-width: 480px) {
+    .imgmain{
+        height: 100%;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .bgmain2{
+        height: 250px;
+        width: 250px;
+        margin-top: 20px;
+        margin-left: 10%;
+        border-radius: 50%;
+        border: 2px solid red;
+    }
+  }
+
+  .circlemain{
+    height: 200px;
+    width: 200px;
+    background-color: #c4c4c6;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-top: -20px;
+  }
+  .circlebg{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    border-radius: 40%;
+    margin-top: 10%;
+    margin-left: -16%;
+    background-color: #7acbca;
+  }

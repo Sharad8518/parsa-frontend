@@ -1,0 +1,15 @@
+.bgFootetr{
+    background-color: #0e1133;
+    padding: 50px;
+    margin-top: 50px;
+}
+.footerlink{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.footerlink:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}

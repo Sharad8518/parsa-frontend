@@ -1,0 +1,13 @@
+.pricingcard{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #f3f4f8;
+}
+.pricecourse{
+ font-size: 18px;
+}
+.pricecourse:hover{
+  color: #82b440;
+}
